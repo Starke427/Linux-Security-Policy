@@ -3,8 +3,8 @@
 # Automate CentOS7/RHEL7 advanced auditd configuration.
 # Author: Jeff Starke
 
-cp /etc/audit/rules.d/audit.rules /etc/audit/rules.d/audit.rules.bak
-cat > /etc/audit/rules.d/audit.rules <<\EOF
+sudo cp /etc/audit/rules.d/audit.rules /etc/audit/rules.d/audit.rules.bak
+sudo cat > /etc/audit/rules.d/audit.rules <<\EOF
 # This file contains the auditctl rules that are loaded when the audit daemon is started via initscripts.
 # The rules are parameters that would be passed to auditctl.
 # This rule set is specifically for CentOS7/RHEL7.
@@ -13,7 +13,7 @@ cat > /etc/audit/rules.d/audit.rules <<\EOF
 # Config Rules
 -D		#removes all previous rules
 -b  3074	#define buffer size
--f 4		#panic on failure 
+-f 4		#panic on failure
 -r 120		#create at most 120 audit messages per second
 
 # Date/Time
