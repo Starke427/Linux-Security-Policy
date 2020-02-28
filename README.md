@@ -8,8 +8,14 @@ Properly configuring your audit rules is critical to meeting compliance requirem
 
 ```
 curl https://raw.githubusercontent.com/Starke427/Linux-Security-Policy/master/auditd_setup_el7.sh > auditd_setup_el7.sh
-
 chmod 700 auditd_setup_el7.sh
-
 ./auditd_setup_el7.sh
+```
+
+## Debian8/Ubuntu16
+
+```
+curl https://raw.githubusercontent.com/Starke427/Linux-Security-Policy/master/auditd_setup_ubuntu16.sh > auditd_setup_ubuntu16.sh
+chmod 700 auditd_setup_ubuntu16.sh
+./auditd_setup_ubuntu16.sh
 ```
