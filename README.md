@@ -4,6 +4,22 @@ The Linux Audit system provides a way to track security-relevant information on 
 
 Properly configuring your audit rules is critical to meeting compliance requirements and ensuring that you have the relevant logs to detect security incidents. The following scripts will automatically back up your current audit rules and pull down and configure a larger, more complete list of audit rules. It's recommended that you review the rules prior to implementation to ensure that you aren't duplicating any logging you may already be recieving from other sources, such as a SIEM agent.
 
+The following scripts will automatically configure advanced auditing of changes and modifications to:
+* Date and Time
+* Users and Groups
+* Network Environments
+* Mandatory Access Controls
+* Login and Logout
+* Session Initiation
+* Discretionary Access Controls
+* Unsuccessful Unauthorized File Access Attempts
+* Use of Privleged Commands
+* Successful File System Mounts
+* File Deletion Events by Users
+* System Administration Scope
+* System Administrator Actions
+* Kernel Module Loading and Unloading
+
 ## CentOS7/RHEL7
 
 ```
