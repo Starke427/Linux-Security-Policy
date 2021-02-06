@@ -43,5 +43,4 @@ You can further assess your security hardening with [Lynis](https://github.com/C
 ```
 git clone https://github.com/CISOfy/lynis
 cd lynis; ./lynis audit system
- 
- ```
+```
