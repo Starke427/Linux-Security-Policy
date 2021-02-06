@@ -38,7 +38,7 @@ chmod 700 auditd_setup_ubuntu16.sh
 
 ## Compliance Validation
 
-You can further assess your security hardening with [Lynix]https://github.com/CISOfy/Lynis. Lynis is a security auditing tool for systems based on UNIX like Linux, macOS, BSD, and others. It performs an in-depth security scan and runs on the system itself. The primary goal is to test security defenses and provide tips for further system hardening. It will also scan for general system information, vulnerable software packages, and possible configuration issues. Lynis was commonly used by system administrators and auditors to assess the security defenses of their systems. 
+You can further assess your security hardening with [Lynis](https://github.com/CISOfy/Lynis). Lynis is a security auditing tool for systems based on UNIX like Linux, macOS, BSD, and others. It performs an in-depth security scan and runs on the system itself. The primary goal is to test security defenses and provide tips for further system hardening. It will also scan for general system information, vulnerable software packages, and possible configuration issues. Lynis was commonly used by system administrators and auditors to assess the security defenses of their systems. 
 
 ```
  git clone https://github.com/CISOfy/lynis
